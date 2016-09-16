@@ -3,7 +3,7 @@ year=`date -d yesterday +%Y`
 month=`date -d yesterday +%M`
 day=`date -d yesterday +%D`
 
-curl "https://www.wunderground.com/history/airport/GNV/$year/$month/$day/DailyHistory.heml?&format=1" > MaxTemp.txt
+curl "https://www.wunderground.com/history/airport/GNV/$year/$month/$day/DailyHistory.heml?&format=1" > gnv.txt
 
 
 
